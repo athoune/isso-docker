@@ -1,0 +1,11 @@
+---
+
+isso:
+    build: .
+    cap_drop:
+        - ALL
+    ports:
+        - "1234:1234"
+    volumes:
+        - "conf:/conf"
+        - "data:/data"
