@@ -1,5 +1,3 @@
-.phony: build
-
 build: ./app/bin/isso
 	docker build -t isso .
 
