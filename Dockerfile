@@ -1,4 +1,5 @@
 FROM python:2-wheezy
+MAINTAINER mathieu@garambrogne.net
 
 COPY app /app
 
