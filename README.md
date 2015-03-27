@@ -12,6 +12,10 @@ Build it
 
     make
 
+You can build the js files, too
+
+    make js
+
 Configure it
 ------------
 
